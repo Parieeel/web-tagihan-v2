@@ -364,3 +364,36 @@ margin-top: 20px;
   padding: 20px;
 }
 
+/* ===========================
+   MOBILE HORIZONTAL MENU
+=========================== */
+
+@media (max-width: 768px) {
+
+  .sidebar {
+    width: 100%;
+    padding: 10px 15px;
+    overflow-x: auto;        /* bisa scroll ke samping */
+  }
+
+  .sidebar nav {
+    display: flex;
+    flex-direction: row;     /* tetap horizontal */
+    gap: 15px;
+    white-space: nowrap;     /* cegah turun baris */
+  }
+
+  .sidebar a {
+    margin: 0;
+    font-size: 14px;
+    line-height: normal;
+    padding: 8px 0;
+  }
+
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+
