@@ -268,3 +268,63 @@ margin-top: 20px;
 .menu-wrapper::-webkit-scrollbar {
   display: none; /* Chrome, Safari, Opera */
 }
+
+/* ===========================
+   RESPONSIVE MOBILE
+=========================== */
+
+@media (max-width: 768px) {
+
+  /* Sidebar jadi full width */
+  .sidebar {
+    width: 100%;
+    padding: 0 15px;
+    gap: 15px;
+  }
+
+  .sidebar a {
+    margin: 0 10px;
+    font-size: 14px;
+  }
+
+  /* Stats jadi 1 kolom */
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  /* Menu title lebih kecil */
+  .menu-title {
+    font-size: 36px;
+    letter-spacing: 2px;
+  }
+
+  /* Section title lebih kecil */
+  .section-title {
+    font-size: 24px;
+  }
+
+  /* Floating number lebih kecil */
+  .section-number {
+    font-size: 40px;
+    left: 15px;
+    bottom: 15px;
+  }
+
+  /* Padding dikurangi */
+  .menu-section {
+    padding: 20px;
+  }
+
+  /* Subtitle lebih kecil */
+  .menu-subtitle {
+    font-size: 14px;
+  }
+
+  /* Button lebih kecil */
+  .menu-btn {
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+}
+
