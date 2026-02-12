@@ -328,3 +328,36 @@ margin-top: 20px;
 
 }
 
+/* ===========================
+   MOBILE SIDEBAR FIX
+=========================== */
+
+@media (max-width: 768px) {
+
+  .sidebar {
+    flex-direction: column;
+    height: auto;
+    padding: 15px;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sidebar a {
+    margin: 0;
+    line-height: normal;
+    font-size: 14px;
+  }
+
+  .logo-img {
+    margin-top: 0;
+  }
+
+}
+
+
