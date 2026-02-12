@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+
+<section class="hero">
+  <h1>Data Dashboard</h1>
+  <p>Monitor pembayaran & laporan bulanan secara real-time</p>
+</section>
+
+<section class="stats">
+  <div class="card neon">
+    <span>Total Lunas</span>
+    <h2>Rp 12.500.000</h2>
+  </div>
+
+  <div class="card neon">
+    <span>Belum Lunas</span>
+    <h2>Rp 3.200.000</h2>
+  </div>
+
+  <div class="card neon">
+    <span>Pelanggan</span>
+    <h2>48</h2>
+  </div>
+</section>
+
+<section class="glass">
+  <h3>Laporan Bulanan</h3>
+  <table>
+    <tr>
+      <th>Nama</th>
+      <th>Paket</th>
+      <th>Status</th>
+      <th>Jumlah</th>
+    </tr>
+    <tr>
+      <td>Andi</td>
+      <td>Premium</td>
+      <td class="ok">Lunas</td>
+      <td>Rp 350.000</td>
+    </tr>
+  </table>
+</section>
+
+{% endblock %}
