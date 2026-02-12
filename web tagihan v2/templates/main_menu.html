@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+
+<div class="menu-wrapper">
+
+  <!-- SECTION 01 -->
+  <section class="menu-section snap-section">
+    <div class="section-number">01</div>
+    <div class="center-content fade-in">
+      <h1 class="menu-title">GOLD NETWORK</h1>
+      <p class="menu-subtitle">
+        Smart Billing & Network Management System
+      </p>
+    </div>
+  </section>
+
+  <!-- SECTION 02 -->
+  <section class="menu-section snap-section">
+    <div class="section-number">02</div>
+    <div class="center-content fade-in">
+      <h2 class="section-title">BILLING DASHBOARD</h2>
+      <p>
+        Monitor pelanggan, pembayaran, laporan dan tagihan
+        secara modern, cepat dan real-time.
+      </p>
+      <a href="{{ url_for('dashboard') }}" class="menu-btn">
+        ENTER DASHBOARD
+      </a>
+    </div>
+  </section>
+
+  <!-- SECTION 03 -->
+  <section class="menu-section snap-section">
+    <div class="section-number">03</div>
+    <div class="center-content fade-in">
+      <h2 class="section-title">CONTACT</h2>
+      <p>Email: support@goldnetwork.id</p>
+      <p>Phone: +62 812-xxxx-xxxx</p>
+    </div>
+  </section>
+
+</div>
+
+{% endblock %}
